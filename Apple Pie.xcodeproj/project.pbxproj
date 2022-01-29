@@ -13,6 +13,7 @@
 		0E4F2FC027A19D3700215B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F2FBE27A19D3700215B9B /* Main.storyboard */; };
 		0E4F2FC227A19D3A00215B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F2FC127A19D3A00215B9B /* Assets.xcassets */; };
 		0E4F2FC527A19D3A00215B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E4F2FC327A19D3A00215B9B /* LaunchScreen.storyboard */; };
+		0E4F2FCD27A1C5D000215B9B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4F2FCC27A1C5D000215B9B /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E4F2FC127A19D3A00215B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E4F2FC427A19D3A00215B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E4F2FC627A19D3A00215B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E4F2FCC27A1C5D000215B9B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				0E4F2FC127A19D3A00215B9B /* Assets.xcassets */,
 				0E4F2FC327A19D3A00215B9B /* LaunchScreen.storyboard */,
 				0E4F2FC627A19D3A00215B9B /* Info.plist */,
+				0E4F2FCC27A1C5D000215B9B /* Game.swift */,
 			);
 			path = "Apple Pie";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				0E4F2FBD27A19D3700215B9B /* ViewController.swift in Sources */,
 				0E4F2FB927A19D3700215B9B /* AppDelegate.swift in Sources */,
 				0E4F2FBB27A19D3700215B9B /* SceneDelegate.swift in Sources */,
+				0E4F2FCD27A1C5D000215B9B /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Apple Pie/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
